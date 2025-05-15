@@ -1,0 +1,28 @@
+
+body {
+  background-color: #E84C3D;
+  font: 20px Helvetica, sans-serif;
+  color: #fff;
+  margin: 0;
+}
+
+.maintenance-container {
+  text-align: center;
+  padding: 150px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+#img360 {
+  border-radius: 100px;
+  margin-left: 0px;
+  animation: spin 4s linear infinite;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
